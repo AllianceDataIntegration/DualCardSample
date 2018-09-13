@@ -2,6 +2,7 @@
 
 
 ### App Delegate Setup Forever21
+#### ADSDefaultDualCard.instance.bootstrapDualCard (is the method you need to call)
 
 ```Swift import ADSDualCard
 import ADSFoundation
