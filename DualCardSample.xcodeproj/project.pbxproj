@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC52ED31214AA4C000A2214A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC52ED30214AA4C000A2214A /* AppDelegate.swift */; };
+		EC52ED33214AA4C000A2214A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC52ED32214AA4C000A2214A /* ViewController.swift */; };
+		EC52ED36214AA4C000A2214A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC52ED34214AA4C000A2214A /* Main.storyboard */; };
+		EC52ED38214AA4C200A2214A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC52ED37214AA4C200A2214A /* Assets.xcassets */; };
+		EC52ED3B214AA4C200A2214A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC52ED39214AA4C200A2214A /* LaunchScreen.storyboard */; };
+		EC52ED46214AA4C200A2214A /* DualCardSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC52ED45214AA4C200A2214A /* DualCardSampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC52ED42214AA4C200A2214A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC52ED25214AA4C000A2214A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC52ED2C214AA4C000A2214A;
+			remoteInfo = DualCardSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC52ED2D214AA4C000A2214A /* DualCardSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DualCardSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC52ED30214AA4C000A2214A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC52ED32214AA4C000A2214A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC52ED35214AA4C000A2214A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC52ED37214AA4C200A2214A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC52ED3A214AA4C200A2214A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC52ED3C214AA4C200A2214A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC52ED41214AA4C200A2214A /* DualCardSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DualCardSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC52ED45214AA4C200A2214A /* DualCardSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualCardSampleTests.swift; sourceTree = "<group>"; };
+		EC52ED47214AA4C200A2214A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC52ED2A214AA4C000A2214A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC52ED3E214AA4C200A2214A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC52ED24214AA4C000A2214A = {
+			isa = PBXGroup;
+			children = (
+				EC52ED2F214AA4C000A2214A /* DualCardSample */,
+				EC52ED44214AA4C200A2214A /* DualCardSampleTests */,
+				EC52ED2E214AA4C000A2214A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC52ED2E214AA4C000A2214A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC52ED2D214AA4C000A2214A /* DualCardSample.app */,
+				EC52ED41214AA4C200A2214A /* DualCardSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC52ED2F214AA4C000A2214A /* DualCardSample */ = {
+			isa = PBXGroup;
+			children = (
+				EC52ED30214AA4C000A2214A /* AppDelegate.swift */,
+				EC52ED32214AA4C000A2214A /* ViewController.swift */,
+				EC52ED34214AA4C000A2214A /* Main.storyboard */,
+				EC52ED37214AA4C200A2214A /* Assets.xcassets */,
+				EC52ED39214AA4C200A2214A /* LaunchScreen.storyboard */,
+				EC52ED3C214AA4C200A2214A /* Info.plist */,
+			);
+			path = DualCardSample;
+			sourceTree = "<group>";
+		};
+		EC52ED44214AA4C200A2214A /* DualCardSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC52ED45214AA4C200A2214A /* DualCardSampleTests.swift */,
+				EC52ED47214AA4C200A2214A /* Info.plist */,
+			);
+			path = DualCardSampleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC52ED2C214AA4C000A2214A /* DualCardSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC52ED4A214AA4C200A2214A /* Build configuration list for PBXNativeTarget "DualCardSample" */;
+			buildPhases = (
+				EC52ED29214AA4C000A2214A /* Sources */,
+				EC52ED2A214AA4C000A2214A /* Frameworks */,
+				EC52ED2B214AA4C000A2214A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DualCardSample;
+			productName = DualCardSample;
+			productReference = EC52ED2D214AA4C000A2214A /* DualCardSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC52ED40214AA4C200A2214A /* DualCardSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC52ED4D214AA4C200A2214A /* Build configuration list for PBXNativeTarget "DualCardSampleTests" */;
+			buildPhases = (
+				EC52ED3D214AA4C200A2214A /* Sources */,
+				EC52ED3E214AA4C200A2214A /* Frameworks */,
+				EC52ED3F214AA4C200A2214A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC52ED43214AA4C200A2214A /* PBXTargetDependency */,
+			);
+			name = DualCardSampleTests;
+			productName = DualCardSampleTests;
+			productReference = EC52ED41214AA4C200A2214A /* DualCardSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC52ED25214AA4C000A2214A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = SampleClientAppMaker;
+				TargetAttributes = {
+					EC52ED2C214AA4C000A2214A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EC52ED40214AA4C200A2214A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EC52ED2C214AA4C000A2214A;
+					};
+				};
+			};
+			buildConfigurationList = EC52ED28214AA4C000A2214A /* Build configuration list for PBXProject "DualCardSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC52ED24214AA4C000A2214A;
+			productRefGroup = EC52ED2E214AA4C000A2214A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC52ED2C214AA4C000A2214A /* DualCardSample */,
+				EC52ED40214AA4C200A2214A /* DualCardSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC52ED2B214AA4C000A2214A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC52ED3B214AA4C200A2214A /* LaunchScreen.storyboard in Resources */,
+				EC52ED38214AA4C200A2214A /* Assets.xcassets in Resources */,
+				EC52ED36214AA4C000A2214A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC52ED3F214AA4C200A2214A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC52ED29214AA4C000A2214A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC52ED33214AA4C000A2214A /* ViewController.swift in Sources */,
+				EC52ED31214AA4C000A2214A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC52ED3D214AA4C200A2214A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC52ED46214AA4C200A2214A /* DualCardSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC52ED43214AA4C200A2214A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC52ED2C214AA4C000A2214A /* DualCardSample */;
+			targetProxy = EC52ED42214AA4C200A2214A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC52ED34214AA4C000A2214A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC52ED35214AA4C000A2214A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC52ED39214AA4C200A2214A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC52ED3A214AA4C200A2214A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC52ED48214AA4C200A2214A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC52ED49214AA4C200A2214A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC52ED4B214AA4C200A2214A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2XWZFPH38;
+				INFOPLIST_FILE = DualCardSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thisismyapp.DualCardSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC52ED4C214AA4C200A2214A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2XWZFPH38;
+				INFOPLIST_FILE = DualCardSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thisismyapp.DualCardSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC52ED4E214AA4C200A2214A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2XWZFPH38;
+				INFOPLIST_FILE = DualCardSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thisismyapp.DualCardSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DualCardSample.app/DualCardSample";
+			};
+			name = Debug;
+		};
+		EC52ED4F214AA4C200A2214A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2XWZFPH38;
+				INFOPLIST_FILE = DualCardSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thisismyapp.DualCardSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DualCardSample.app/DualCardSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC52ED28214AA4C000A2214A /* Build configuration list for PBXProject "DualCardSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC52ED48214AA4C200A2214A /* Debug */,
+				EC52ED49214AA4C200A2214A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC52ED4A214AA4C200A2214A /* Build configuration list for PBXNativeTarget "DualCardSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC52ED4B214AA4C200A2214A /* Debug */,
+				EC52ED4C214AA4C200A2214A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC52ED4D214AA4C200A2214A /* Build configuration list for PBXNativeTarget "DualCardSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC52ED4E214AA4C200A2214A /* Debug */,
+				EC52ED4F214AA4C200A2214A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC52ED25214AA4C000A2214A /* Project object */;
+}
