@@ -1,0 +1,11 @@
+framework module ADSFoundation {
+  umbrella header "ADSFoundation.h"
+
+  export *
+  module * { export * }
+}
+
+module ADSFoundation.Swift {
+    header "ADSFoundation-Swift.h"
+    requires objc
+}

@@ -1,0 +1,11 @@
+framework module ADSACKit {
+  umbrella header "ADSACKit.h"
+
+  export *
+  module * { export * }
+}
+
+module ADSACKit.Swift {
+    header "ADSACKit-Swift.h"
+    requires objc
+}

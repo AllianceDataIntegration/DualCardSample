@@ -1,0 +1,11 @@
+framework module ADSACAux {
+  umbrella header "ADSACAux.h"
+
+  export *
+  module * { export * }
+}
+
+module ADSACAux.Swift {
+    header "ADSACAux-Swift.h"
+    requires objc
+}

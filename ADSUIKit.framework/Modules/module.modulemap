@@ -1,0 +1,11 @@
+framework module ADSUIKit {
+  umbrella header "ADSUIKit.h"
+
+  export *
+  module * { export * }
+}
+
+module ADSUIKit.Swift {
+    header "ADSUIKit-Swift.h"
+    requires objc
+}

@@ -1,0 +1,6 @@
+framework module ADSZXingObjC {
+  umbrella header "ADSZXingObjC.h"
+
+  export *
+  module * { export * }
+}

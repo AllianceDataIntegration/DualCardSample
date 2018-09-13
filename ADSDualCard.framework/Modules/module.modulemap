@@ -1,0 +1,11 @@
+framework module ADSDualCard {
+  umbrella header "ADSDualCard.h"
+
+  export *
+  module * { export * }
+}
+
+module ADSDualCard.Swift {
+    header "ADSDualCard-Swift.h"
+    requires objc
+}

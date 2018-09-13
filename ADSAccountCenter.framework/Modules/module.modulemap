@@ -1,0 +1,11 @@
+framework module ADSAccountCenter {
+  umbrella header "ADSAccountCenter.h"
+
+  export *
+  module * { export * }
+}
+
+module ADSAccountCenter.Swift {
+    header "ADSAccountCenter-Swift.h"
+    requires objc
+}

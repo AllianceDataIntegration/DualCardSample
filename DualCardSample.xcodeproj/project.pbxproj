@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C675191BA1377888CE2E053 /* Pods_DualCardSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945BAD7A30539B54481A5DDD /* Pods_DualCardSample.framework */; };
+		5002907547DEFABE279BB922 /* Pods_DualCardSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7530A2426E3738651BFB2D /* Pods_DualCardSampleTests.framework */; };
 		EC52ED31214AA4C000A2214A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC52ED30214AA4C000A2214A /* AppDelegate.swift */; };
 		EC52ED33214AA4C000A2214A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC52ED32214AA4C000A2214A /* ViewController.swift */; };
 		EC52ED36214AA4C000A2214A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC52ED34214AA4C000A2214A /* Main.storyboard */; };
 		EC52ED38214AA4C200A2214A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC52ED37214AA4C200A2214A /* Assets.xcassets */; };
 		EC52ED3B214AA4C200A2214A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC52ED39214AA4C200A2214A /* LaunchScreen.storyboard */; };
 		EC52ED46214AA4C200A2214A /* DualCardSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC52ED45214AA4C200A2214A /* DualCardSampleTests.swift */; };
+		EC52ED59214AA84400A2214A /* ADSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED50214AA83F00A2214A /* ADSFoundation.framework */; };
+		EC52ED5A214AA84400A2214A /* ADSFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED50214AA83F00A2214A /* ADSFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC52ED5B214AA84400A2214A /* ADSACKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED51214AA84200A2214A /* ADSACKit.framework */; };
+		EC52ED5C214AA84400A2214A /* ADSACKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED51214AA84200A2214A /* ADSACKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC52ED5D214AA84400A2214A /* ADSUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED53214AA84200A2214A /* ADSUIKit.framework */; };
+		EC52ED5E214AA84400A2214A /* ADSUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED53214AA84200A2214A /* ADSUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC52ED5F214AA84400A2214A /* ADSZXingObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED54214AA84300A2214A /* ADSZXingObjC.framework */; };
+		EC52ED60214AA84400A2214A /* ADSZXingObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED54214AA84300A2214A /* ADSZXingObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC52ED61214AA84400A2214A /* ADSACAux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED55214AA84400A2214A /* ADSACAux.framework */; };
+		EC52ED62214AA84400A2214A /* ADSACAux.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED55214AA84400A2214A /* ADSACAux.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC52ED63214AA84400A2214A /* ADSAccountCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED56214AA84400A2214A /* ADSAccountCenter.framework */; };
+		EC52ED64214AA84400A2214A /* ADSAccountCenter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED56214AA84400A2214A /* ADSAccountCenter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC52ED65214AA84400A2214A /* ADSDualCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED57214AA84400A2214A /* ADSDualCard.framework */; };
+		EC52ED66214AA84400A2214A /* ADSDualCard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED57214AA84400A2214A /* ADSDualCard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC52ED67214AA84400A2214A /* ADSEventLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED58214AA84400A2214A /* ADSEventLogger.framework */; };
+		EC52ED68214AA84400A2214A /* ADSEventLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED58214AA84400A2214A /* ADSEventLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +43,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EC52ED69214AA84500A2214A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EC52ED66214AA84400A2214A /* ADSDualCard.framework in Embed Frameworks */,
+				EC52ED60214AA84400A2214A /* ADSZXingObjC.framework in Embed Frameworks */,
+				EC52ED62214AA84400A2214A /* ADSACAux.framework in Embed Frameworks */,
+				EC52ED5C214AA84400A2214A /* ADSACKit.framework in Embed Frameworks */,
+				EC52ED5E214AA84400A2214A /* ADSUIKit.framework in Embed Frameworks */,
+				EC52ED64214AA84400A2214A /* ADSAccountCenter.framework in Embed Frameworks */,
+				EC52ED68214AA84400A2214A /* ADSEventLogger.framework in Embed Frameworks */,
+				EC52ED5A214AA84400A2214A /* ADSFoundation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0F7530A2426E3738651BFB2D /* Pods_DualCardSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DualCardSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C7F3502D154174E57C99BA /* Pods-DualCardSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DualCardSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-DualCardSample/Pods-DualCardSample.release.xcconfig"; sourceTree = "<group>"; };
+		63A9C7D660A70BDC992CA9C5 /* Pods-DualCardSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DualCardSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DualCardSampleTests/Pods-DualCardSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B9A28CA5BEA8E17C46FA2FF /* Pods-DualCardSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DualCardSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DualCardSample/Pods-DualCardSample.debug.xcconfig"; sourceTree = "<group>"; };
+		945BAD7A30539B54481A5DDD /* Pods_DualCardSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DualCardSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85775EBC117398CF9E3C04D /* Pods-DualCardSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DualCardSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DualCardSampleTests/Pods-DualCardSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC52ED2D214AA4C000A2214A /* DualCardSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DualCardSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC52ED30214AA4C000A2214A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC52ED32214AA4C000A2214A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +81,15 @@
 		EC52ED41214AA4C200A2214A /* DualCardSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DualCardSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC52ED45214AA4C200A2214A /* DualCardSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualCardSampleTests.swift; sourceTree = "<group>"; };
 		EC52ED47214AA4C200A2214A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC52ED50214AA83F00A2214A /* ADSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSFoundation.framework; sourceTree = "<group>"; };
+		EC52ED51214AA84200A2214A /* ADSACKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSACKit.framework; sourceTree = "<group>"; };
+		EC52ED52214AA84200A2214A /* strip-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "strip-frameworks.sh"; sourceTree = "<group>"; };
+		EC52ED53214AA84200A2214A /* ADSUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSUIKit.framework; sourceTree = "<group>"; };
+		EC52ED54214AA84300A2214A /* ADSZXingObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSZXingObjC.framework; sourceTree = "<group>"; };
+		EC52ED55214AA84400A2214A /* ADSACAux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSACAux.framework; sourceTree = "<group>"; };
+		EC52ED56214AA84400A2214A /* ADSAccountCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSAccountCenter.framework; sourceTree = "<group>"; };
+		EC52ED57214AA84400A2214A /* ADSDualCard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSDualCard.framework; sourceTree = "<group>"; };
+		EC52ED58214AA84400A2214A /* ADSEventLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSEventLogger.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +97,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC52ED65214AA84400A2214A /* ADSDualCard.framework in Frameworks */,
+				EC52ED5F214AA84400A2214A /* ADSZXingObjC.framework in Frameworks */,
+				EC52ED61214AA84400A2214A /* ADSACAux.framework in Frameworks */,
+				EC52ED5B214AA84400A2214A /* ADSACKit.framework in Frameworks */,
+				EC52ED5D214AA84400A2214A /* ADSUIKit.framework in Frameworks */,
+				EC52ED63214AA84400A2214A /* ADSAccountCenter.framework in Frameworks */,
+				EC52ED67214AA84400A2214A /* ADSEventLogger.framework in Frameworks */,
+				EC52ED59214AA84400A2214A /* ADSFoundation.framework in Frameworks */,
+				1C675191BA1377888CE2E053 /* Pods_DualCardSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +113,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5002907547DEFABE279BB922 /* Pods_DualCardSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BE9BF38BDACF98A5788C6DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				945BAD7A30539B54481A5DDD /* Pods_DualCardSample.framework */,
+				0F7530A2426E3738651BFB2D /* Pods_DualCardSampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC52ED24214AA4C000A2214A = {
 			isa = PBXGroup;
 			children = (
+				EC52ED55214AA84400A2214A /* ADSACAux.framework */,
+				EC52ED56214AA84400A2214A /* ADSAccountCenter.framework */,
+				EC52ED51214AA84200A2214A /* ADSACKit.framework */,
+				EC52ED57214AA84400A2214A /* ADSDualCard.framework */,
+				EC52ED58214AA84400A2214A /* ADSEventLogger.framework */,
+				EC52ED50214AA83F00A2214A /* ADSFoundation.framework */,
+				EC52ED53214AA84200A2214A /* ADSUIKit.framework */,
+				EC52ED54214AA84300A2214A /* ADSZXingObjC.framework */,
+				EC52ED52214AA84200A2214A /* strip-frameworks.sh */,
 				EC52ED2F214AA4C000A2214A /* DualCardSample */,
 				EC52ED44214AA4C200A2214A /* DualCardSampleTests */,
 				EC52ED2E214AA4C000A2214A /* Products */,
+				F3752F1E7E79AD08D1FD2EAB /* Pods */,
+				7BE9BF38BDACF98A5788C6DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +180,17 @@
 			path = DualCardSampleTests;
 			sourceTree = "<group>";
 		};
+		F3752F1E7E79AD08D1FD2EAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B9A28CA5BEA8E17C46FA2FF /* Pods-DualCardSample.debug.xcconfig */,
+				17C7F3502D154174E57C99BA /* Pods-DualCardSample.release.xcconfig */,
+				D85775EBC117398CF9E3C04D /* Pods-DualCardSampleTests.debug.xcconfig */,
+				63A9C7D660A70BDC992CA9C5 /* Pods-DualCardSampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +198,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC52ED4A214AA4C200A2214A /* Build configuration list for PBXNativeTarget "DualCardSample" */;
 			buildPhases = (
+				F6195F6623362536F724F9A0 /* [CP] Check Pods Manifest.lock */,
 				EC52ED29214AA4C000A2214A /* Sources */,
 				EC52ED2A214AA4C000A2214A /* Frameworks */,
 				EC52ED2B214AA4C000A2214A /* Resources */,
+				EC52ED69214AA84500A2214A /* Embed Frameworks */,
+				EC52ED6A214AA85F00A2214A /* Run Script */,
+				39ACBC0D1D65B99EEE559AE4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC52ED4D214AA4C200A2214A /* Build configuration list for PBXNativeTarget "DualCardSampleTests" */;
 			buildPhases = (
+				EC9B80A41C6FAEA0C660311A /* [CP] Check Pods Manifest.lock */,
 				EC52ED3D214AA4C200A2214A /* Sources */,
 				EC52ED3E214AA4C200A2214A /* Frameworks */,
 				EC52ED3F214AA4C200A2214A /* Resources */,
@@ -191,6 +291,79 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39ACBC0D1D65B99EEE559AE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DualCardSample/Pods-DualCardSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RNCryptor/RNCryptor.framework",
+				"${BUILT_PRODUCTS_DIR}/TrustKit/TrustKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCryptor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrustKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DualCardSample/Pods-DualCardSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC52ED6A214AA85F00A2214A /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${SRCROOT}\"/strip-frameworks.sh\n";
+		};
+		EC9B80A41C6FAEA0C660311A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DualCardSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6195F6623362536F724F9A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DualCardSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC52ED29214AA4C000A2214A /* Sources */ = {
@@ -356,10 +529,15 @@
 		};
 		EC52ED4B214AA4C200A2214A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B9A28CA5BEA8E17C46FA2FF /* Pods-DualCardSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T2XWZFPH38;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DualCardSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -374,10 +552,15 @@
 		};
 		EC52ED4C214AA4C200A2214A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C7F3502D154174E57C99BA /* Pods-DualCardSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T2XWZFPH38;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DualCardSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -392,6 +575,7 @@
 		};
 		EC52ED4E214AA4C200A2214A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D85775EBC117398CF9E3C04D /* Pods-DualCardSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -413,6 +597,7 @@
 		};
 		EC52ED4F214AA4C200A2214A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63A9C7D660A70BDC992CA9C5 /* Pods-DualCardSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

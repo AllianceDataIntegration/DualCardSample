@@ -1,0 +1,6 @@
+framework module ADSEventLogger {
+  umbrella header "ADSEventLogger.h"
+
+  export *
+  module * { export * }
+}

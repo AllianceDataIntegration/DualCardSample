@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import ADSDualCard
+import ADSFoundation
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let clientName = "forever21"
+        let apiKey = "180SL87zqi0f2fw"
+        let environment = ADSEnvironment.stage
+        
+        ADSDefaultDualCard.instance.bootstrapDualCard(withClientName: clientName,
+                                                      apiKey: apiKey, environment: environment) {
+                                                        print("Bootstrap complete")
+        }
+    
+        
         return true
     }
 
