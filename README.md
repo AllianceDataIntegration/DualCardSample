@@ -29,15 +29,13 @@ import ADSFoundation
         super.viewDidAppear(animated)
         
         // Setup config and show the home screen...
-        if let navController = self.navigationController {
             let config = ADSDualDefaultShowConfig(dismissHandler: {
                 let _ = self.navigationController?.popToViewController(self, animated: true)
             })
             
             // Inline
-            ADSDefaultDualCard.instance.showDualCard(.home, with: navController, and: config)
-            // Embedded
-            // ADSDefaultDualCard.instance.showDualCard(feature: .home, navigateWithIn: self, constrainedIn: self.view, with: config)
-        }
+            //ADSDefaultDualCard.instance.showDualCard(.home, with: navController, and: config)
+            // Embedded - you might want to use this Embed API
+             ADSDefaultDualCard.instance.showDualCard(feature: .home, navigateWithIn: self, constrainedIn: self.view, with: config)
     }
  ```
