@@ -3,6 +3,7 @@
 
 ### App Delegate Setup Forever21
 #### ADSDefaultDualCard.instance.bootstrapDualCard (is the method you need to call)
+##### You might need to uncheck ‘Under Top Bars’ for Embedded view controller
 
 ```Swift import ADSDualCard
 import ADSFoundation
