@@ -3,6 +3,7 @@
 
 ### App Delegate Setup Forever21
 #### ADSDefaultDualCard.instance.bootstrapDualCard (is the method you need to call)
+##### You might need to uncheck ‘Under Top Bars’ for Embedded view controller
 
 ```Swift import ADSDualCard
 import ADSFoundation
@@ -29,15 +30,13 @@ import ADSFoundation
         super.viewDidAppear(animated)
         
         // Setup config and show the home screen...
-        if let navController = self.navigationController {
             let config = ADSDualDefaultShowConfig(dismissHandler: {
                 let _ = self.navigationController?.popToViewController(self, animated: true)
             })
             
-            // Inline
-            ADSDefaultDualCard.instance.showDualCard(.home, with: navController, and: config)
-            // Embedded
-            // ADSDefaultDualCard.instance.showDualCard(feature: .home, navigateWithIn: self, constrainedIn: self.view, with: config)
-        }
+        // Inline
+         //ADSDefaultDualCard.instance.showDualCard(.home, with: self.navigationController, and: config)
+        // Embedded - you might want to use this Embed API
+           ADSDefaultDualCard.instance.showDualCard(feature: .home, navigateWithIn: self, constrainedIn: self.view, with: config)
     }
  ```
