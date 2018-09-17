@@ -3,7 +3,7 @@
 //  DualCardSample
 //
 //  Created by MLS Discovery on 9/13/18.
-//  Copyright © 2018 SampleClientAppMaker. All rights reserved.
+//  Copyright © 2018 Alliance Data. All rights reserved.
 //
 
 import UIKit
