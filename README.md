@@ -35,7 +35,7 @@ import ADSFoundation
             })
             
         // Inline
-         //ADSDefaultDualCard.instance.showDualCard(.home, with: navController, and: config)
+         //ADSDefaultDualCard.instance.showDualCard(.home, with: self.navigationController, and: config)
         // Embedded - you might want to use this Embed API
            ADSDefaultDualCard.instance.showDualCard(feature: .home, navigateWithIn: self, constrainedIn: self.view, with: config)
     }
