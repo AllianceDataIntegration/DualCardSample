@@ -1,10 +1,10 @@
 PODS:
   - RNCryptor (5.0.3)
-  - TrustKit (1.5.3)
+  - TrustKit (1.6.0)
 
 DEPENDENCIES:
-  - RNCryptor (~> 5.0)
-  - TrustKit
+  - RNCryptor (~> 5.0.3)
+  - TrustKit (~> 1.6.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -13,8 +13,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   RNCryptor: c93d19029dcf7ff160aca0f24d6c9e7b0d82f664
-  TrustKit: b2bd5cb6a69cb17a95af87af327ecaa93c8da4bd
+  TrustKit: 55ff9670dd8b3697eb23124cfc6c96aeca9c40e7
 
-PODFILE CHECKSUM: 36be3d590187bed92a0a8a53c1c61d7715cf629a
+PODFILE CHECKSUM: 05e126c50f3cd2e7067c3291f506088261d49ee1
 
 COCOAPODS: 1.5.3

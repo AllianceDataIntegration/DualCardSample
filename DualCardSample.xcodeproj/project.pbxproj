@@ -9,28 +9,28 @@
 /* Begin PBXBuildFile section */
 		1C675191BA1377888CE2E053 /* Pods_DualCardSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945BAD7A30539B54481A5DDD /* Pods_DualCardSample.framework */; };
 		5002907547DEFABE279BB922 /* Pods_DualCardSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7530A2426E3738651BFB2D /* Pods_DualCardSampleTests.framework */; };
+		EC4C7BF921791A02007E6906 /* ADSEventLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C7BF0217919F8007E6906 /* ADSEventLogger.framework */; };
+		EC4C7BFA21791A02007E6906 /* ADSEventLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C7BF0217919F8007E6906 /* ADSEventLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC4C7BFB21791A02007E6906 /* ADSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C7BF1217919FB007E6906 /* ADSFoundation.framework */; };
+		EC4C7BFC21791A02007E6906 /* ADSFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C7BF1217919FB007E6906 /* ADSFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC4C7BFD21791A02007E6906 /* ADSZXingObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C7BF2217919FC007E6906 /* ADSZXingObjC.framework */; };
+		EC4C7BFE21791A02007E6906 /* ADSZXingObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C7BF2217919FC007E6906 /* ADSZXingObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC4C7BFF21791A02007E6906 /* ADSUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C7BF3217919FD007E6906 /* ADSUIKit.framework */; };
+		EC4C7C0021791A02007E6906 /* ADSUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C7BF3217919FD007E6906 /* ADSUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC4C7C0121791A02007E6906 /* ADSACKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C7BF421791A00007E6906 /* ADSACKit.framework */; };
+		EC4C7C0221791A02007E6906 /* ADSACKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C7BF421791A00007E6906 /* ADSACKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC4C7C0321791A02007E6906 /* ADSAccountCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C7BF521791A01007E6906 /* ADSAccountCenter.framework */; };
+		EC4C7C0421791A02007E6906 /* ADSAccountCenter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C7BF521791A01007E6906 /* ADSAccountCenter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC4C7C0521791A02007E6906 /* ADSACAux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C7BF621791A01007E6906 /* ADSACAux.framework */; };
+		EC4C7C0621791A02007E6906 /* ADSACAux.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C7BF621791A01007E6906 /* ADSACAux.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC4C7C0721791A02007E6906 /* ADSDualCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C7BF721791A02007E6906 /* ADSDualCard.framework */; };
+		EC4C7C0821791A02007E6906 /* ADSDualCard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C7BF721791A02007E6906 /* ADSDualCard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EC52ED31214AA4C000A2214A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC52ED30214AA4C000A2214A /* AppDelegate.swift */; };
 		EC52ED33214AA4C000A2214A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC52ED32214AA4C000A2214A /* ViewController.swift */; };
 		EC52ED36214AA4C000A2214A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC52ED34214AA4C000A2214A /* Main.storyboard */; };
 		EC52ED38214AA4C200A2214A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC52ED37214AA4C200A2214A /* Assets.xcassets */; };
 		EC52ED3B214AA4C200A2214A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC52ED39214AA4C200A2214A /* LaunchScreen.storyboard */; };
 		EC52ED46214AA4C200A2214A /* DualCardSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC52ED45214AA4C200A2214A /* DualCardSampleTests.swift */; };
-		EC52ED59214AA84400A2214A /* ADSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED50214AA83F00A2214A /* ADSFoundation.framework */; };
-		EC52ED5A214AA84400A2214A /* ADSFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED50214AA83F00A2214A /* ADSFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EC52ED5B214AA84400A2214A /* ADSACKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED51214AA84200A2214A /* ADSACKit.framework */; };
-		EC52ED5C214AA84400A2214A /* ADSACKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED51214AA84200A2214A /* ADSACKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EC52ED5D214AA84400A2214A /* ADSUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED53214AA84200A2214A /* ADSUIKit.framework */; };
-		EC52ED5E214AA84400A2214A /* ADSUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED53214AA84200A2214A /* ADSUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EC52ED5F214AA84400A2214A /* ADSZXingObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED54214AA84300A2214A /* ADSZXingObjC.framework */; };
-		EC52ED60214AA84400A2214A /* ADSZXingObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED54214AA84300A2214A /* ADSZXingObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EC52ED61214AA84400A2214A /* ADSACAux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED55214AA84400A2214A /* ADSACAux.framework */; };
-		EC52ED62214AA84400A2214A /* ADSACAux.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED55214AA84400A2214A /* ADSACAux.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EC52ED63214AA84400A2214A /* ADSAccountCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED56214AA84400A2214A /* ADSAccountCenter.framework */; };
-		EC52ED64214AA84400A2214A /* ADSAccountCenter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED56214AA84400A2214A /* ADSAccountCenter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EC52ED65214AA84400A2214A /* ADSDualCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED57214AA84400A2214A /* ADSDualCard.framework */; };
-		EC52ED66214AA84400A2214A /* ADSDualCard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED57214AA84400A2214A /* ADSDualCard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EC52ED67214AA84400A2214A /* ADSEventLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED58214AA84400A2214A /* ADSEventLogger.framework */; };
-		EC52ED68214AA84400A2214A /* ADSEventLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52ED58214AA84400A2214A /* ADSEventLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,20 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EC52ED69214AA84500A2214A /* Embed Frameworks */ = {
+		EC4C7C0921791A02007E6906 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				EC52ED66214AA84400A2214A /* ADSDualCard.framework in Embed Frameworks */,
-				EC52ED60214AA84400A2214A /* ADSZXingObjC.framework in Embed Frameworks */,
-				EC52ED62214AA84400A2214A /* ADSACAux.framework in Embed Frameworks */,
-				EC52ED5C214AA84400A2214A /* ADSACKit.framework in Embed Frameworks */,
-				EC52ED5E214AA84400A2214A /* ADSUIKit.framework in Embed Frameworks */,
-				EC52ED64214AA84400A2214A /* ADSAccountCenter.framework in Embed Frameworks */,
-				EC52ED68214AA84400A2214A /* ADSEventLogger.framework in Embed Frameworks */,
-				EC52ED5A214AA84400A2214A /* ADSFoundation.framework in Embed Frameworks */,
+				EC4C7C0221791A02007E6906 /* ADSACKit.framework in Embed Frameworks */,
+				EC4C7C0821791A02007E6906 /* ADSDualCard.framework in Embed Frameworks */,
+				EC4C7C0021791A02007E6906 /* ADSUIKit.framework in Embed Frameworks */,
+				EC4C7BFC21791A02007E6906 /* ADSFoundation.framework in Embed Frameworks */,
+				EC4C7BFE21791A02007E6906 /* ADSZXingObjC.framework in Embed Frameworks */,
+				EC4C7C0421791A02007E6906 /* ADSAccountCenter.framework in Embed Frameworks */,
+				EC4C7BFA21791A02007E6906 /* ADSEventLogger.framework in Embed Frameworks */,
+				EC4C7C0621791A02007E6906 /* ADSACAux.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +71,15 @@
 		8B9A28CA5BEA8E17C46FA2FF /* Pods-DualCardSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DualCardSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DualCardSample/Pods-DualCardSample.debug.xcconfig"; sourceTree = "<group>"; };
 		945BAD7A30539B54481A5DDD /* Pods_DualCardSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DualCardSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85775EBC117398CF9E3C04D /* Pods-DualCardSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DualCardSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DualCardSampleTests/Pods-DualCardSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC4C7BF0217919F8007E6906 /* ADSEventLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSEventLogger.framework; sourceTree = "<group>"; };
+		EC4C7BF1217919FB007E6906 /* ADSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSFoundation.framework; sourceTree = "<group>"; };
+		EC4C7BF2217919FC007E6906 /* ADSZXingObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSZXingObjC.framework; sourceTree = "<group>"; };
+		EC4C7BF3217919FD007E6906 /* ADSUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSUIKit.framework; sourceTree = "<group>"; };
+		EC4C7BF421791A00007E6906 /* ADSACKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSACKit.framework; sourceTree = "<group>"; };
+		EC4C7BF521791A01007E6906 /* ADSAccountCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSAccountCenter.framework; sourceTree = "<group>"; };
+		EC4C7BF621791A01007E6906 /* ADSACAux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSACAux.framework; sourceTree = "<group>"; };
+		EC4C7BF721791A02007E6906 /* ADSDualCard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSDualCard.framework; sourceTree = "<group>"; };
+		EC4C7BF821791A02007E6906 /* strip-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "strip-frameworks.sh"; sourceTree = "<group>"; };
 		EC52ED2D214AA4C000A2214A /* DualCardSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DualCardSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC52ED30214AA4C000A2214A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC52ED32214AA4C000A2214A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,15 +90,6 @@
 		EC52ED41214AA4C200A2214A /* DualCardSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DualCardSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC52ED45214AA4C200A2214A /* DualCardSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualCardSampleTests.swift; sourceTree = "<group>"; };
 		EC52ED47214AA4C200A2214A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC52ED50214AA83F00A2214A /* ADSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSFoundation.framework; sourceTree = "<group>"; };
-		EC52ED51214AA84200A2214A /* ADSACKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSACKit.framework; sourceTree = "<group>"; };
-		EC52ED52214AA84200A2214A /* strip-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "strip-frameworks.sh"; sourceTree = "<group>"; };
-		EC52ED53214AA84200A2214A /* ADSUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSUIKit.framework; sourceTree = "<group>"; };
-		EC52ED54214AA84300A2214A /* ADSZXingObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSZXingObjC.framework; sourceTree = "<group>"; };
-		EC52ED55214AA84400A2214A /* ADSACAux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSACAux.framework; sourceTree = "<group>"; };
-		EC52ED56214AA84400A2214A /* ADSAccountCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSAccountCenter.framework; sourceTree = "<group>"; };
-		EC52ED57214AA84400A2214A /* ADSDualCard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSDualCard.framework; sourceTree = "<group>"; };
-		EC52ED58214AA84400A2214A /* ADSEventLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADSEventLogger.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,14 +97,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC52ED65214AA84400A2214A /* ADSDualCard.framework in Frameworks */,
-				EC52ED5F214AA84400A2214A /* ADSZXingObjC.framework in Frameworks */,
-				EC52ED61214AA84400A2214A /* ADSACAux.framework in Frameworks */,
-				EC52ED5B214AA84400A2214A /* ADSACKit.framework in Frameworks */,
-				EC52ED5D214AA84400A2214A /* ADSUIKit.framework in Frameworks */,
-				EC52ED63214AA84400A2214A /* ADSAccountCenter.framework in Frameworks */,
-				EC52ED67214AA84400A2214A /* ADSEventLogger.framework in Frameworks */,
-				EC52ED59214AA84400A2214A /* ADSFoundation.framework in Frameworks */,
+				EC4C7C0521791A02007E6906 /* ADSACAux.framework in Frameworks */,
+				EC4C7BFD21791A02007E6906 /* ADSZXingObjC.framework in Frameworks */,
+				EC4C7C0721791A02007E6906 /* ADSDualCard.framework in Frameworks */,
+				EC4C7C0321791A02007E6906 /* ADSAccountCenter.framework in Frameworks */,
+				EC4C7BF921791A02007E6906 /* ADSEventLogger.framework in Frameworks */,
+				EC4C7C0121791A02007E6906 /* ADSACKit.framework in Frameworks */,
+				EC4C7BFB21791A02007E6906 /* ADSFoundation.framework in Frameworks */,
+				EC4C7BFF21791A02007E6906 /* ADSUIKit.framework in Frameworks */,
 				1C675191BA1377888CE2E053 /* Pods_DualCardSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,15 +132,15 @@
 		EC52ED24214AA4C000A2214A = {
 			isa = PBXGroup;
 			children = (
-				EC52ED55214AA84400A2214A /* ADSACAux.framework */,
-				EC52ED56214AA84400A2214A /* ADSAccountCenter.framework */,
-				EC52ED51214AA84200A2214A /* ADSACKit.framework */,
-				EC52ED57214AA84400A2214A /* ADSDualCard.framework */,
-				EC52ED58214AA84400A2214A /* ADSEventLogger.framework */,
-				EC52ED50214AA83F00A2214A /* ADSFoundation.framework */,
-				EC52ED53214AA84200A2214A /* ADSUIKit.framework */,
-				EC52ED54214AA84300A2214A /* ADSZXingObjC.framework */,
-				EC52ED52214AA84200A2214A /* strip-frameworks.sh */,
+				EC4C7BF621791A01007E6906 /* ADSACAux.framework */,
+				EC4C7BF521791A01007E6906 /* ADSAccountCenter.framework */,
+				EC4C7BF421791A00007E6906 /* ADSACKit.framework */,
+				EC4C7BF721791A02007E6906 /* ADSDualCard.framework */,
+				EC4C7BF0217919F8007E6906 /* ADSEventLogger.framework */,
+				EC4C7BF1217919FB007E6906 /* ADSFoundation.framework */,
+				EC4C7BF3217919FD007E6906 /* ADSUIKit.framework */,
+				EC4C7BF2217919FC007E6906 /* ADSZXingObjC.framework */,
+				EC4C7BF821791A02007E6906 /* strip-frameworks.sh */,
 				EC52ED2F214AA4C000A2214A /* DualCardSample */,
 				EC52ED44214AA4C200A2214A /* DualCardSampleTests */,
 				EC52ED2E214AA4C000A2214A /* Products */,
@@ -202,9 +202,9 @@
 				EC52ED29214AA4C000A2214A /* Sources */,
 				EC52ED2A214AA4C000A2214A /* Frameworks */,
 				EC52ED2B214AA4C000A2214A /* Resources */,
-				EC52ED69214AA84500A2214A /* Embed Frameworks */,
 				EC52ED6A214AA85F00A2214A /* Run Script */,
 				39ACBC0D1D65B99EEE559AE4 /* [CP] Embed Pods Frameworks */,
+				EC4C7C0921791A02007E6906 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
