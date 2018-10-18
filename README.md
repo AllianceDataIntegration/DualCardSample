@@ -1,5 +1,10 @@
 # DualCardSample
 
+To run, 
+1. Clone using the url.
+2. run pod update.
+3. Open the workspace with Xcode 10 or higher.
+
 
 ### App Delegate Setup Forever21
 #### ADSDefaultDualCard.instance.bootstrapDualCard (is the method you need to call)
